@@ -4,6 +4,12 @@
     min-height: 100vh;
   }
 
+  /* Intro Section */
+  #intro {
+    height: auto;
+    min-height: 100vh;
+  }
+
   #intro-content {
     padding: 40px 20px;
     margin: 0 auto;
@@ -23,9 +29,41 @@
   #subtitle {
     padding: 0 10px;
   }
+
+  /* Projects Section */
+  #projects {
+    height: auto;
+    padding: 60px 40px 80px 40px;
+  }
+
+  #grid-projects {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /* Services Section */
+  #services {
+    padding: 60px 40px 80px 40px;
+  }
+
+  #grid-services {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /* Contact Section */
+  #contact {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  #contact-content {
+    padding: 80px 40px 100px 40px;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  /* Intro Section */
   #avatar {
     margin-bottom: 40px;
   }
@@ -63,9 +101,44 @@
     flex-direction: column;
     gap: 5px;
   }
+
+  /* Projects Section */
+  #projects {
+    padding: 40px 20px 60px 20px;
+  }
+
+  #grid-projects {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .title-md {
+    padding: 0 10px;
+  }
+
+  /* Services Section */
+  #services {
+    padding: 40px 20px 60px 20px;
+  }
+
+  #grid-services {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 40px;
+  }
+
+  /* Contact Section */
+  #contact-content {
+    padding: 60px 20px 80px 20px;
+  }
+
+  .link {
+    padding: 16px 15px;
+  }
 }
 
 @media screen and (max-width: 360px) {
+  /* Intro Section */
   .text-lg {
     font: 700 28px/120% var(--font-family-asap);
     padding: 0 5px;
@@ -92,5 +165,36 @@
   
   .text-sm {
     font-size: 13px;
+  }
+
+  /* Projects Section */
+  #projects {
+    padding: 30px 15px 50px 15px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .card-title {
+    margin-bottom: 5px;
+  }
+
+  /* Services Section */
+  #services {
+    padding: 30px 15px 50px 15px;
+  }
+
+  .card-services {
+    padding: 15px;
+  }
+
+  /* Contact Section */
+  #contact-content {
+    padding: 40px 15px 60px 15px;
+  }
+
+  .link {
+    padding: 12px 10px;
   }
 }

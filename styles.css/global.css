@@ -12,6 +12,7 @@ html, body {
 }
 
 :root {
+    /* Colors */
     --red-color: #E3646E;
     --purple-color: #BB72E9;
     --blue-color: #3996DB;
@@ -23,14 +24,53 @@ html, body {
     --gray-400: #878EA1;
     --gray-500: #C0C4CE;
     --gray-600: #E2E4E9;
+    
+    /* Font families */
     --font-family-asap: Asap, sans-serif;
+    --font-family-inconsolata: Inconsolata, monospace;
+    --font-family-maven: Maven Pro, sans-serif;
+    
+    /* Default font sizes */
     --title-lg: 800 60px/120% var(--font-family-asap);
     --title-md: 800 28px/120% var(--font-family-asap);
     --title-sm: 800 20px/120% var(--font-family-asap);
-    --font-family-inconsolata: Inconsolata, monospace;
     --subtitle: 400 24px/120% var(--font-family-inconsolata);
-    --font-family-maven: Maven Pro, sans-serif;
     --text-md: 400 20px/140% var(--font-family-maven);
     --text-md-semibold: 600 20px/140% var(--font-family-maven);
     --text-sm: 400 18px/140% var(--font-family-maven);
+}
+
+/* Responsive font sizes */
+@media screen and (max-width: 768px) {
+    :root {
+        --title-lg: 800 50px/120% var(--font-family-asap);
+        --title-md: 800 26px/120% var(--font-family-asap);
+        --subtitle: 400 22px/120% var(--font-family-inconsolata);
+        --text-md: 400 18px/140% var(--font-family-maven);
+        --text-md-semibold: 600 18px/140% var(--font-family-maven);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    :root {
+        --title-lg: 800 40px/120% var(--font-family-asap);
+        --title-md: 800 24px/120% var(--font-family-asap);
+        --title-sm: 800 18px/120% var(--font-family-asap);
+        --subtitle: 400 20px/120% var(--font-family-inconsolata);
+        --text-md: 400 16px/140% var(--font-family-maven);
+        --text-md-semibold: 600 16px/140% var(--font-family-maven);
+        --text-sm: 400 16px/140% var(--font-family-maven);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    :root {
+        --title-lg: 800 32px/120% var(--font-family-asap);
+        --title-md: 800 22px/120% var(--font-family-asap);
+        --title-sm: 800 16px/120% var(--font-family-asap);
+        --subtitle: 400 18px/120% var(--font-family-inconsolata);
+        --text-md: 400 15px/140% var(--font-family-maven);
+        --text-md-semibold: 600 15px/140% var(--font-family-maven);
+        --text-sm: 400 14px/140% var(--font-family-maven);
+    }
 }
