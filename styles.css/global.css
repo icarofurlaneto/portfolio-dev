@@ -7,7 +7,8 @@
 html, body {
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
+    background-color: var(--gray-200);
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -23,19 +24,13 @@ html, body {
     --gray-500: #C0C4CE;
     --gray-600: #E2E4E9;
     --font-family-asap: Asap, sans-serif;
-    --title-lg: 800 56px/120% var(--font-family-asap);
-    --title-md: 800 24px/120% var(--font-family-asap);
-    --title-sm: 400 16px/120% var(--font-family-asap);
+    --title-lg: 800 60px/120% var(--font-family-asap);
+    --title-md: 800 28px/120% var(--font-family-asap);
+    --title-sm: 800 20px/120% var(--font-family-asap);
     --font-family-inconsolata: Inconsolata, monospace;
-    --subtitle: 400 20px/120% var(--font-family-inconsolata);
+    --subtitle: 400 24px/120% var(--font-family-inconsolata);
     --font-family-maven: Maven Pro, sans-serif;
-    --text-md: 400 16px/140% var(--font-family-maven);
-    --text-sm: 400 14px/140% var(--font-family-maven);
-}
-
-.container {
-    width: 100%;
-    height: 750px;
-    position: relative;
-    overflow: hidden;
+    --text-md: 400 20px/140% var(--font-family-maven);
+    --text-md-semibold: 600 20px/140% var(--font-family-maven);
+    --text-sm: 400 18px/140% var(--font-family-maven);
 }
