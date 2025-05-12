@@ -13,13 +13,13 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: 1;
   }
 
 #background-intro img {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
 }
 
@@ -35,6 +35,7 @@
   text-align: center;
   z-index: 2;
   position: relative;
+  margin: 200px auto 144px auto;
 }
 
 #info {
@@ -103,7 +104,7 @@
 
 #tags {
   display: flex;
-  margin-block: 80px 120px;
+  margin-block: 80px 50px;
   justify-content: center;
   gap: 16px;
   z-index: 3;
@@ -140,6 +141,7 @@
 }
 
 #caret img {
+  margin-bottom: 50px;;
   width: 36px;
   z-index: 3;
 }
