@@ -13,21 +13,43 @@
   #intro-content {
     padding: 40px 20px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   .text-lg {
     font: 700 42px/120% var(--font-family-asap);
+    max-width: 70%;
+    margin: 0 auto;
   }
 
   #tags {
     margin-block: 60px 70px;
     flex-wrap: wrap;
-    max-width: 500px;
+    max-width: 80%;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   #subtitle {
     padding: 0 10px;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  #info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+  }
+  
+  #intro-description {
+    max-width: 75%;
+    margin: 20px auto 0;
   }
 
   /* Projects Section */
@@ -66,23 +88,27 @@
   /* Intro Section */
   #avatar {
     margin-bottom: 40px;
+    max-width: 60%;
   }
 
   .text-lg {
     font: 700 32px/120% var(--font-family-asap);
+    max-width: 75%;
+    margin: 0 auto;
   }
 
   .text-sm {
     padding: 0 10px;
+    max-width: 80%;
+    margin: 0 auto;
   }
-
-  
 
   #tags {
     margin-block: 40px 50px;
-    gap: 12px;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 100%;
   }
 
   .tag {
@@ -92,6 +118,9 @@
 
   #info {
     max-height: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   #caret {
@@ -102,6 +131,8 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+    max-width: 70%;
+    margin: 0 auto;
   }
 
   /* Projects Section */
@@ -144,29 +175,43 @@
   .text-lg {
     font: 700 28px/120% var(--font-family-asap);
     padding: 0 5px;
+    max-width: 80%;
+    margin: 0 auto;
   }
 
   #tags {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     margin-block: 30px 40px;
     gap: 8px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .tag {
-    width: 80%;
+    width: auto;
+    transform: scale(0.9);
+    margin-bottom: 5px;
   }
   
   #avatar {
     margin-bottom: 30px;
+    transform: scale(0.9);
   }
   
   .text-span-gray-500 {
     font-size: 18px;
+    max-width: 70%;
+    margin: 0 auto;
   }
   
   .text-sm {
     font-size: 13px;
+    max-width: 85%;
+    margin: 0 auto;
   }
 
   /* Projects Section */
