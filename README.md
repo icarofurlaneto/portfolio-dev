@@ -1,4 +1,4 @@
-# 🌐 Portfólio Profissional - Ícaro Furlaneto
+# 🌐 Portfólio Profissional
 
 ![Screenshot 2025-05-12 102304](https://github.com/user-attachments/assets/ac24689b-ca0d-4985-b20a-caa8fd3617b8)
 
