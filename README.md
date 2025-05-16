@@ -1,5 +1,7 @@
 # 🌐 Portfólio Profissional - Ícaro Furlaneto
 
+![Screenshot 2025-05-12 102304](https://github.com/user-attachments/assets/ac24689b-ca0d-4985-b20a-caa8fd3617b8)
+
 Este é meu portfólio profissional como desenvolvedor fullstack. O projeto foi desenvolvido com foco em apresentar minhas habilidades técnicas, projetos realizados, experiências e formas de contato de maneira clara, moderna e responsiva.
 
 ## 🔗 Acesse o portfólio online:
